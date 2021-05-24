@@ -9,8 +9,7 @@ html, body{
 
 body{
     color: white;
-    background: rgb(204,141,231);
-    background: linear-gradient(180deg, rgba(204,141,231,1) 7%, rgba(96,8,125,1) 62%);
+    background: rgb(139,43,180);
     font-family: 'Raleway', sans-serif;  
 }
 

@@ -1,0 +1,92 @@
+*{ /*usado para eliminar os margins e paddings de toda a pagina*/
+    margin: 0px;
+    padding: 0px
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    color: white;
+    background: rgb(204,141,231);
+    background: linear-gradient(180deg, rgba(204,141,231,1) 7%, rgba(96,8,125,1) 62%);
+    font-family: 'Raleway', sans-serif;  
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 30px white;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.perfil{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;/*quando coloco o displey flex em um elemento pai, todos os elementos dentro dele ficarão lado a lado*/
+    justify-content: space-around;/*center;só funciona quando tem o display flex, centraliza os elementos*/
+    list-style: none;
+    margin: 20px;
+}
+
+.redes-sociais img{ /*nesse caso vou acessar a minha tag img que está dengtro da classe redes-sociais, dá-se o nome de classe aninhada*/
+    width: 35px;
+}
+
+.lista-links{
+    list-style: none;
+    text-align: center;
+}
+
+.lista-links li{
+    margin: 10px 20px;
+}
+
+.lista-links li a{
+    padding: 15px 20px;
+    background: white;
+    font-weight: bold;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 10px white;
+    color:  rgba(96,8,125,1);
+}
+
+.lista-links li a span{
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: black;
+    text-align: center;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-size: 15px;
+}

@@ -44,7 +44,7 @@ body{
 }
 
 .logotipo {
-    width: 200px;
+    width: 250px;
     position:-webkit-sticky;
     margin-bottom: 50px;
     margin-top: 50PX;
@@ -76,17 +76,17 @@ body{
 .navbar ul li a {
     color: rgb(177, 174, 174);
     display:grid;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    font-size: 22px;
+    padding: 8px 12px;
+    margin: 8px 12px;
+    font-size: 25px;
     text-shadow: blue 2px 3px 2px;  
 }
 
 .pag-inicial{
     color:blue;
     display:grid;
-    padding: 10px 15px;
-    margin: 10px 15px;
+    padding: 8px 12px;
+    margin: 8px 12px;
     font-size: 25px;
     text-shadow: white 2px 3px 2px;  
 }

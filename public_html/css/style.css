@@ -92,7 +92,7 @@ body{
     position: fixed;
     right: 0;
     top: 85%;
-    width: 6%;
+    width: 8%;
     margin-top: -2.5em;
     padding: 8px 12px;
     margin: 8px 12px;
@@ -104,8 +104,8 @@ body{
     display:flex;
     position: fixed;
     right: 0;
-    top: 76%;
-    width: 6%;
+    top: 70%;
+    width: 8%;
     margin-top: -2.5em;
     padding: 8px 12px;
     margin: 8px 12px;
